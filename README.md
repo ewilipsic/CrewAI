@@ -8,7 +8,7 @@ it only takes the distress call as input and outputs everything in terminal<br /
 
 distress call can be something like - "There is a crocodile loose in the walmart on 5th avenue,it has attacked 2 people,please advice on what to do, there are a lot of people here"<br />
 
-It consists of 4 agents :
+It consists of 4 agents :<br />
 Agent 1 -> extracts important info from the message<br />
 Agent 2 -> decides which departments need to be called<br />
 Agent 3 -> drafts mails to those departments containing relavant information<br />
