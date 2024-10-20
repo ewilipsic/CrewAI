@@ -2,17 +2,17 @@
 
 ### It's a 991 Dispatcher that takes a distress message(String)
 
-Notifies the appropriate services like(police,EMS,firefighters),currently it drafts emails to them "obviously doesn't send them anywhere right now"
-and gives instructions to the caller to follow till help arrives
-it only takes the distress call as input and outputs everything in terminal
+Notifies the appropriate services like(police,EMS,firefighters),currently it drafts emails to them "obviously doesn't send them anywhere right now"\
+and gives instructions to the caller to follow till help arrives\
+it only takes the distress call as input and outputs everything in terminal\
 
-distress call can be something like - "There is a crocodile loose in the walmart on 5th avenue,it has attacked 2 people,please advice on what to do, there are a lot of people here"
+distress call can be something like - "There is a crocodile loose in the walmart on 5th avenue,it has attacked 2 people,please advice on what to do, there are a lot of people here"\
 
 It consists of 4 agents :
-Agent 1 -> extracts important info from the message
-Agent 2 -> decides which departments need to be called 
-Agent 3 -> drafts mails to those departments containing relavant information
-Agent 4 -> Responds to the caller giving them instructions on what to do and tries to calm them
+Agent 1 -> extracts important info from the message\
+Agent 2 -> decides which departments need to be called\ 
+Agent 3 -> drafts mails to those departments containing relavant information\
+Agent 4 -> Responds to the caller giving them instructions on what to do and tries to calm them\
 
 ### To run
 
