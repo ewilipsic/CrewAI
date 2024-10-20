@@ -49,8 +49,14 @@ class CustomCrew:
             tasks=[custom_task_1,custom_task_2,custom_task_3,custom_task_4,],
             verbose=True,
         )
+        try:
+            result = crew.kickoff()
+        except:
+            result = """Crew is having diifuctly reaching Gemini, please try again 
+                        And stay safe while doing so
+                        YOUR SAFETY SHOULD BE YOUR FIRST PRIORITY"""
 
-        result = crew.kickoff()
+
         return result
 
 
